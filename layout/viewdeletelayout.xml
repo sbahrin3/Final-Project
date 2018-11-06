@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kayu">
+
+    <Button
+        android:id="@+id/bView"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="147dp"
+        android:layout_marginStart="47dp"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/bDelete"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/bView"
+        android:layout_marginEnd="59dp"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/bHome"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="69dp"
+        android:text="Home" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="303dp"
+        android:layout_height="77dp"
+        android:layout_alignBottom="@+id/imageView12"
+        android:layout_alignStart="@+id/bHome"
+        android:gravity="center"
+        android:text="View / Delete"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/noMatrik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="157dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Masukkan No Matrik"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

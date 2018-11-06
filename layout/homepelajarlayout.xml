@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kayu">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="244dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnSubmit"
+        android:layout_marginTop="11dp"
+        android:gravity="center"
+        android:text="Home"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editNoMatrik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginTop="132dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Insert Number Matrik"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_dark" />
+
+    <Spinner
+        android:id="@+id/spinnerKohort"
+        android:layout_width="216dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginTop="195dp"
+        android:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/spinnerSem"
+        android:layout_width="216dp"
+        android:layout_height="39dp"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_alignTop="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="205dp"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:text="Back" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="113dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:layout_toStartOf="@+id/textView18"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_alignTop="@+id/editNoMatrik"
+        android:gravity="center"
+        android:text="No Matrik"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="87dp"
+        android:layout_height="41dp"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_alignTop="@+id/spinnerKohort"
+        android:gravity="center"
+        android:text="Kohort"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="87dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_marginTop="253dp"
+        android:gravity="center"
+        android:text="Sem"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+</RelativeLayout>
