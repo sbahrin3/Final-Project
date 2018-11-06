@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kayu">
+
+    <Spinner
+        android:id="@+id/tKohort"
+        android:layout_width="218dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/Tmatrik"
+        android:layout_alignTop="@+id/textView10" />
+
+    <Spinner
+        android:id="@+id/tSem"
+        android:layout_width="216dp"
+        android:layout_height="34dp"
+        android:layout_alignStart="@+id/tKohort"
+        android:layout_alignTop="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="252dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tKohort"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Add/Update Form"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="78dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/btnAdd"
+        android:layout_alignTop="@+id/Tmatrik"
+        android:gravity="center"
+        android:text="No Matrik"
+        android:textColor="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/Tmatrik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="106dp"
+        android:layout_toEndOf="@+id/btnAdd"
+        android:ems="10"
+        android:hint="Insert Number Matrik"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="78dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="162dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/Tname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Tmatrik"
+        android:layout_alignTop="@+id/textView9"
+        android:ems="10"
+        android:hint="Insert Name"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="226dp"
+        android:gravity="center"
+        android:text="Kohort"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="80dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/tKohort"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:text="SEM"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="70dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnAdd"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="38dp"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:text="Home" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="113dp"
+        android:layout_height="83dp"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>
